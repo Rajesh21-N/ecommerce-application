@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ShopEase - Online Store</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="logo">
+        ShopEase
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#products">Products</a>
+        <a href="orders.html">My Orders</a>
+        <a href="cart.html">Cart 🛒</a>
+    </nav>
+
+    <div class="nav-actions">
+        <a href="login.html" class="login-btn">Login</a>
+        <a href="register.html" class="register-btn">Register</a>
+    </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <p class="hero-small">
+            WELCOME TO SHOPEASE
+        </p>
+
+        <h1>
+            Shop smarter.<br>
+            Live better.
+        </h1>
+
+        <p class="hero-description">
+            Discover amazing products at great prices.
+            Everything you need, all in one place.
+        </p>
+
+        <a href="#products" class="hero-btn">
+            Shop Now →
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PRODUCTS ================= -->
+
+<section class="products-section" id="products">
+
+    <div class="section-header">
+
+        <div>
+            <p class="section-small">
+                OUR COLLECTION
+            </p>
+
+            <h2>
+                Featured Products
+            </h2>
+        </div>
+
+        <div class="search-box">
+            <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search products..."
+            >
+
+            <button onclick="searchProducts()">
+                Search
+            </button>
+        </div>
+
+    </div>
+
+
+    <!-- Products will be inserted here by JavaScript -->
+
+    <div id="productsContainer" class="products-grid">
+
+        <p class="loading">
+            Loading products...
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-content">
+
+        <h2>ShopEase</h2>
+
+        <p>
+            Your simple and trusted online shopping experience.
+        </p>
+
+        <p class="copyright">
+            © 2026 ShopEase. All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script src="js/api.js"></script>
+<script src="js/products.js"></script>
+
+</body>
+</html>
